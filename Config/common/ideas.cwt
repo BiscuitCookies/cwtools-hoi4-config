@@ -1,4 +1,12 @@
 types = {
+	type[idea_categories] = {
+		path = "game/common/ideas"
+		skip_root_key = yes
+	}
+	type[ideas] = {
+		path = "game/common/ideas"
+		skip_root_key = { any any }
+	}
 	type[idea] = {
 		path = "game/common/ideas"
 	}
